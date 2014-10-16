@@ -1,0 +1,10 @@
+{
+    "name": "budkit/project",
+    "description": "The Budkit Project Management App",
+    "keywords": [
+        "platform",
+        "budkit"
+    ],
+    "license": "GPLv3",
+    "minimum-stability": "dev"
+}
