@@ -13,7 +13,12 @@ class Provider implements Service {
         $this->application = $application;
     }
 
+    public static function  getPackageDir(){
+        return __DIR__."/";
+    }
+
     public function onRegister() {
+
         $app = $this->application;
         //Can Include Routes; using $this->application->route->add() or simply \Route::add().
         $app->route
